@@ -42,7 +42,8 @@ TP-Link TL-WN722N v2/v3 [Realtek RTL8188EUS], you might find this helpful. In th
 18. sudo unzip rtl8188eus-tplink-v3-2022-08.zip
 19. cd rtl8188eus-tplink-v3-2022-08
 20. sudo make && make install
-21. reboot 
+21. cd .. && sudo rm -rf rtl8188eus-tplink-v3-2022-08
+22. reboot 
 
 Like https://github.com/cccooo/rtl8812au-centos-7.6, forked from aircrack-ng/rtl8188eus and modified for CentOS 7.9
 as CentOS Kernel 3.10 contains many code from 4.x
